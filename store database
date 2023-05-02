@@ -16,4 +16,4 @@ INSERT INTO books VALUES(3,"Finance",5);
 --display the database ordered by rating. 
 
 SELECT * FROM books
-ORDER BY rating
+ORDER BY rating;
