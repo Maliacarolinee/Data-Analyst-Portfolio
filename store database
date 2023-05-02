@@ -1,0 +1,19 @@
+--Create a favorite books store database
+
+/* Favorite Books
+Business Management
+Accounting
+Finance */
+
+CREATE TABLE books (id INTEGER PRIMARY KEY, name text, rating INTEGER);
+
+INSERT INTO books VALUES(1,"Business Management",5);
+
+INSERT INTO books VALUES(2,"Accounting",1);
+
+INSERT INTO books VALUES(3,"Finance",5);
+
+--display the database ordered by rating. 
+
+SELECT * FROM books
+ORDER BY rating
