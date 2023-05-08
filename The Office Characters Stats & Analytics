@@ -1,0 +1,63 @@
+--CREATE a table to store the data for characters of your favorite .
+
+CREATE TABLE people_document (id INTEGER PRIMARY KEY, full_name TEXT,job TEXT, salary INTEGER);
+
+--Insert 15 rows of data.
+
+INSERT INTO people_document VALUES(1,"Pam Beesly","Receptionist and office administrator",30000);
+
+INSERT INTO people_document VALUES(2,"Michael Scott","Branch Manager",79900 );
+
+INSERT INTO people_document VALUES(3,"Jim Halpert"," Salesman",45000 );
+
+INSERT INTO people_document VALUES(4,"Dwight Schrute"," Salesman and Assistant To The Regional Manager",55000 );
+
+INSERT INTO people_document VALUES(5,"Angela Martin"," Head Of Accounting",50000 );
+
+INSERT INTO people_document VALUES(6,"Kelly Kapoor"," Customer Service Specialist",32000 );
+
+INSERT INTO people_document VALUES(7,"Andy Bernard "," Salesman",32000 );
+
+INSERT INTO people_document VALUES(8,"Creed Bratton"," Quality Assurance Director",40000 );
+
+INSERT INTO people_document VALUES(9,"Toby Flenderson"," Human Resources Representative",50000 );
+
+INSERT INTO people_document VALUES(10,"Erin Hannon"," Receptionist",30000 );
+
+INSERT INTO people_document VALUES(11,"Kevin Malone"," Accountant",37500 );
+
+INSERT INTO people_document VALUES(12,"Stanley Hudson"," Salesman",50000 );
+
+INSERT INTO people_document VALUES(13,"Oscar Martinez"," Accountant",42000 );
+
+INSERT INTO people_document VALUES(14,"Meredith Palmer"," Supplier Relations",40000 );
+
+INSERT INTO people_document VALUES(15,"Daryll Philbin"," Warehouse Foreman",55000 );
+
+INSERT INTO people_document VALUES(16,"Phyllis Vance"," Saleswoman",40000 );
+
+--Alter the table, where "Receptionist and office administrator" now says "Office administrator".
+
+UPDATE people_document SET job = "Office administrator"
+
+WHERE id = 1;
+
+SELECT * 
+
+FROM people_document;
+
+--Delete data from the table to where "Kelly Kapoor" is no longer in the data.
+
+DELETE FROM people_document
+
+WHERE full_name = "Kelly Kapoor";
+
+SELECT * FROM people_document;
+
+-What is the highest salary and who has the highest salary,sort the results by full name. Limit the results to 10.
+
+SELECT MAX(salary) AS highest_salary FROM people_document, full_name
+
+GROUP BY full_name
+
+LIMIT 10;
