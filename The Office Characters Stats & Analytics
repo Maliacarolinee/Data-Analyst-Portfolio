@@ -4,37 +4,37 @@ CREATE TABLE people_document (id INTEGER PRIMARY KEY, full_name TEXT,job TEXT, s
 
 --Insert 15 rows of data.
 
-INSERT INTO people_document VALUES(1,"Pam Beesly","Receptionist and office administrator",30000);
+INSERT INTO people_document VALUES(1,"Pam Beesly","Receptionist and office administrator",30000,"She was a great character, but there were just better ones in my own personal opinion. She was fun and her romance with Jim was my favorite storyline.");
 
-INSERT INTO people_document VALUES(2,"Michael Scott","Branch Manager",79900 );
+INSERT INTO people_document VALUES(2,"Michael Scott","Branch Manager",79900,"Michael is a fan favorite character. He was funny and although he had his goofball moments, was actually a really good leader. " );
 
-INSERT INTO people_document VALUES(3,"Jim Halpert"," Salesman",45000 );
+INSERT INTO people_document VALUES(3,"Jim Halpert"," Salesman",45000,"Jim was so funny and arguably one of the reasons this show did so well. He was a great husband who always stayed true to Pam, was a good father, and brought something really special to the show." );
 
-INSERT INTO people_document VALUES(4,"Dwight Schrute"," Salesman and Assistant To The Regional Manager",55000 );
+INSERT INTO people_document VALUES(4,"Dwight Schrute"," Salesman and Assistant To The Regional Manager",55000,"Dwight was so funny. Dwight's farm life style was great juxtaposition to the drab workplace that is Dunder Mifflin. He also had awesome catchphrases, great story lines, and super-fun relationships once people really got to know him. " );
 
-INSERT INTO people_document VALUES(5,"Angela Martin"," Head Of Accounting",50000 );
+INSERT INTO people_document VALUES(5,"Angela Martin"," Head Of Accounting",50000,"She was just not a good person. The only good thing about her character was how she complimented Dwight. She was a cheater, a liar, and actively aimed to hurt other people. Not to mention that she was also annoying, mean, and showed no remorse for her actions." );
 
-INSERT INTO people_document VALUES(6,"Kelly Kapoor"," Customer Service Specialist",32000 );
+INSERT INTO people_document VALUES(6,"Kelly Kapoor"," Customer Service Specialist",32000,"Kelly was so annoying. However, she was funny and interesting.She was such a drama queen, and that's both a point for her and against her."" );
 
-INSERT INTO people_document VALUES(7,"Andy Bernard "," Salesman",32000 );
+INSERT INTO people_document VALUES(7,"Andy Bernard "," Salesman",32000,"Andy was funny and – for the most part – grew a lot as a character. He went from being upset enough at a prank to punch a hole in the wall to someone who was relatively calm about finding out they were being cheated on. But Andy's character took a turn for the worse at the end of the series and sadly became a bad character." );
 
-INSERT INTO people_document VALUES(8,"Creed Bratton"," Quality Assurance Director",40000 );
+INSERT INTO people_document VALUES(8,"Creed Bratton"," Quality Assurance Director",40000,"He may have been a downright criminal, mung-bean eating old man, but he was interesting." );
 
-INSERT INTO people_document VALUES(9,"Toby Flenderson"," Human Resources Representative",50000 );
+INSERT INTO people_document VALUES(9,"Toby Flenderson"," Human Resources Representative",50000,"Toby was awful, he was truly so freaking boring! In his defense, he seemed like a really good person despite the rumors that he was actually the Scranton Strangler. He just wanted to do what was best for the office or, you know... his job." );
 
-INSERT INTO people_document VALUES(10,"Erin Hannon"," Receptionist",30000 );
+INSERT INTO people_document VALUES(10,"Erin Hannon"," Receptionist",30000,"Erin was added later into the show, and her character had such an interesting story line. Absolutely adored the ending they gave her. While she was a great character, she was also kind of the end of Andy as a good character." );
 
-INSERT INTO people_document VALUES(11,"Kevin Malone"," Accountant",37500 );
+INSERT INTO people_document VALUES(11,"Kevin Malone"," Accountant",37500,"Kevin was pretty funny, and he did his best to make everyone else happy. He didn't let everyone's teasing get to him which is good." );
 
-INSERT INTO people_document VALUES(12,"Stanley Hudson"," Salesman",50000 );
+INSERT INTO people_document VALUES(12,"Stanley Hudson"," Salesman",50000,"Stanley was funny at times. His snarky sarcasm was great comic relief in less action-packed episodes. However, he cheated on his wife and then quickly moved on to dating his mistress. He was clearly only sorry that it got out and not sorry that he did it. And he was also kind of an insubordinate employee." );
 
-INSERT INTO people_document VALUES(13,"Oscar Martinez"," Accountant",42000 );
+INSERT INTO people_document VALUES(13,"Oscar Martinez"," Accountant",42000,"He was an amazing friend in multiple episodes to so many different characters. He was also funny and moral without being a total Toby." );
 
-INSERT INTO people_document VALUES(14,"Meredith Palmer"," Supplier Relations",40000 );
+INSERT INTO people_document VALUES(14,"Meredith Palmer"," Supplier Relations",40000,"Her drunken antics and crude sensibility definitely made for some good laughs, she really should have been fired. " );
 
-INSERT INTO people_document VALUES(15,"Daryll Philbin"," Warehouse Foreman",55000 );
+INSERT INTO people_document VALUES(15,"Daryll Philbin"," Warehouse Foreman",55000,"Darryl was a great dad who was truly invested in making his daughter's life better. He really grew as a character as the series progressed. The way he messed with Michael was utterly hilarious." );
 
-INSERT INTO people_document VALUES(16,"Phyllis Vance"," Saleswoman",40000 );
+INSERT INTO people_document VALUES(16,"Phyllis Vance"," Saleswoman",40000,"She was definitely a problematic character. From her blackmail of Angela to the way she says popcorn, she just wasn't that great of a person. She was by no means the worst, but she certainly wasn't the best." );
 
 --Alter the table, where "Receptionist and office administrator" now says "Office administrator".
 
