@@ -143,23 +143,34 @@ FROM Top_50restaurants_in_USA;
 /*What about those numbers per category in the data (using HAVING)*/
 
 SELECT *
+
 FROM Top_50restaurants_in_USA;
 
 SELECT TYPE,ROUND(SUM(Rank)) AS Total_Ranking FROM Top_50restaurants_in_USA
+
 GROUP BY TYPE
+
 HAVING Total_Ranking>=29;
 
 /*What ways are there to group the data values that don’t exist yet (using CASE)? - fix this code*/
 
 SELECT restaurant_name,rank
+
 FROM Top_50restaurants_in_USA;
 
 SELECT COUNT(*),
 
-CASE WHEN Rank<=5 THEN "A Rating"
-WHEN Rank,<4 THEN "B Rating"
-ELSE "F Rating"
-END AS Letter_Rating 
+CASE
+
+WHEN Rank = 5 THEN "A Ranking"
+
+WHEN Rank >= 4 THEN "B Ranking"
+
+ELSE "F Ranking"
+
+END AS "letter_ranking"
+
 FROM Top_50restaurants_in_USA
-GROUP BY rank;
+
+GROUP BY Rank;
 
