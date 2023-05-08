@@ -1,0 +1,165 @@
+/* Put your data in here and query it! */
+/* TOP 50 restaurants in the US */
+
+CREATE TABLE Top_50restaurants_in_USA (id INTEGER PRIMARY KEY, restaurant_name TEXT, TYPE text, Place TEXT,Rank INTEGER);
+INSERT INTO Top_50restaurants_in_USA VALUES(1,"Broken Mouth","Korean-Hawaiian food","Los Angeles, California",5);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(2,"Kaaloa's Super Js Authentic Hawaiian","Authentic Hawaiian food","Captain Cook, Hawaii",5);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(3," Archibalds Village Bakery"," Breakfasts and lunch foods","Fort Lauderdale, Florida",5);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(4,"Beyer Deli"," Sandwich foods","San Diego, California",5);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(5,"Adela's Country Eatery","Hawaiian pasta and Asian food","Kaneohe, Hawaii",5);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(6,"Sunbliss Cafe","Cafe foods","Anaheim, California",5);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(7,"Sunbliss Cafe","Cafe foods","Anaheim, California",5);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(8,"The Nook Cajun Cafe","Cafe foods","Norco, California",4.5);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(9,"Tumerico","Vegan and vegetarian Mexican food","Tucson, Arizona",4.8);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(10,"Selam Ethiopian & Eritrean Cuisine","Ethiopian food","Orlando, Florida",4.9);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(11,"Sababa Falafel Shop","Middle Eastern food","Garden Grove, California",4.7);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(12," Chellas Arepa Kitchen","Mexican food","Lancaster, Pennsylvania",4.8);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(13,"Appu's Cafe","Vegan food","Long Beach, California",4.7);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(14," Little France Coffee & Bakery","Cafe food","Mission Viejo, California",4.8);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(15,"Gigi's Cafe","Cafe food","Burlingame, California",4.4);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(16,"Vietwich","Sandwich foods","Stafford, Texas",4.8);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(17,"Crumbville","Bakery foods","Houston, Texas",4.9);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(18,"Ekiben","Asian food","Baltimore, Maryland",4.8);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(19,"Trust","American food","Santa Ana, California",5);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(20,"Arario Midtown","Korean food","Reno, Nevada",4.8);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(21,"GONZO!","Ramen foods","Carlsbad, California",4.8);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(22," Uptown Eats","Cafe food","St. Petersburg, Florida",4.7);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(23,"1618 Asian Fusion","Asian food","Austin, Texas",4.6);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(24,"BMORE Protein Pub","American food","Long Beach, California",4.8);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(25,"Zenaida's Cafe","Cafe food"," Las Vegas, Nevada",4.7);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(26,"Rajas con Crema","Mexican food","Maywood, California",4.8);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(27,"Buendia Breakfast & Lunch Cafe","Cafe food","Tucson, Arizona",4.8);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(28,"XOchimilco","Mexican food","Chicago, Illinois",4.8);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(29,"Baobab Fare","African food","Detroit, Michigan",4.8);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(30,"Malka","Asian food","Portland, Oregon",4.9);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(31,"Kadence","Asian food","Orlando, Florida",4.8);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(32,"Falafel Inc","Vegan food","Washington, DC",4.7);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(33,"Geno D's Pizza","Italian food","Charlotte, North Carolina",4.9);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(34,"Rice Box Kitchen","Asian food","Reno, Nevada",4.7);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(35,"Maison Cafe & Market","Cafe food","Dana Point, California",4.7);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(36,"Baba Kabob","American food","San Diego, California",4.8);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(37,"Cafe d'Marie","Cafe food","Davenport, Iowa",4.8);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(38,"Vida","Mexican food","Indianapolis, Indiana",4.4);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(39,"House of Falafel","American food","Farmington Hills, Michigan",4.8);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(40,"De Babel","Mexican food","Scottsdale, Arizona",4.9);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(41,"Jessica's Cafe","Cafe food","Plainfield, New Jersey",4.8);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(42,"Dolce Vita","Italian food","Oxnard, California",4.4);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(43," Hungry Pants","American food","Orlando, Florida",4.7);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(44,"Izzy's Comfort Kitchen","American food","Coeur d'Alene, Idaho",4.8);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(45,"OmG Omakase by Gino","Asian food","Santa Ana, California",4.8);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(46,"La Condesa Eatery","Mexican food","Reno, Nevada",4.9);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(47,"Nonno's Ristorante","Italian food","Reno, Nevada",4.7);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(48," Burger-chan","American food","Houston, Texas",4.9);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(49,"Jot India","Indian food","Newport, Kentucky",4.7);
+
+INSERT INTO Top_50restaurants_in_USA VALUES(50,"Izakaya Tori","Asian food","Tampa, Florida",4.7);
+
+--Which restaurants serves asian food and has a rank greater than or equal to 4.8?
+
+SELECT * 
+
+FROM Top_50restaurants_in_USA
+
+WHERE TYPE = "Asian food" 
+
+AND Rank>=4.8;
+
+--Which restaurants serves american food or has a rank of 4.6?
+
+SELECT * FROM Top_50restaurants_in_USA
+WHERE TYPE = "American food" OR Rank=4.6
+ORDER BY Rank asc;
+
+--What is the average ranking in the data?
+
+SELECT restaurant_name, ROUND(AVG(Rank)) AS Average_Ranking
+
+FROM Top_50restaurants_in_USA;
+
+--What is the max ranking in the data?
+
+SELECT restaurant_name,MAX(Rank)
+
+AS Max_Ranking
+
+FROM Top_50restaurants_in_USA;
+
+----What is the min ranking in the data?
+
+SELECT restaurant_name, MIN(Rank)
+
+AS MIN_Ranking
+
+FROM Top_50restaurants_in_USA;
+
+/*What about those numbers per category in the data (using HAVING)*/
+
+SELECT *
+FROM Top_50restaurants_in_USA;
+
+SELECT TYPE,ROUND(SUM(Rank)) AS Total_Ranking FROM Top_50restaurants_in_USA
+GROUP BY TYPE
+HAVING Total_Ranking>=29;
+
+/*What ways are there to group the data values that don’t exist yet (using CASE)? - fix this code*/
+
+SELECT restaurant_name,rank
+FROM Top_50restaurants_in_USA;
+
+SELECT COUNT(*),
+
+CASE WHEN Rank<=5 THEN "A Rating"
+WHEN Rank,<4 THEN "B Rating"
+ELSE "F Rating"
+END AS Letter_Rating 
+FROM Top_50restaurants_in_USA
+GROUP BY rank;
+
