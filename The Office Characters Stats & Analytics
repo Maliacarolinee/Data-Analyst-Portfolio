@@ -1,4 +1,4 @@
---CREATE a table to store the data for characters of your favorite .
+--CREATE a table to store the data for characters of your favorite tv show.
 
 CREATE TABLE people_document (id INTEGER PRIMARY KEY, full_name TEXT,job TEXT, salary INTEGER);
 
