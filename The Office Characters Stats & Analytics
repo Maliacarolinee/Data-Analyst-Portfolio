@@ -1,6 +1,6 @@
 --CREATE a table to store the data for characters of your favorite tv show.
 
-CREATE TABLE people_document (id INTEGER PRIMARY KEY, full_name TEXT,job TEXT, salary INTEGER);
+CREATE TABLE people_document (id INTEGER PRIMARY KEY, full_name TEXT,job TEXT, salary INTEGER,popularity_comment TEXT);
 
 --Insert 15 rows of data.
 
@@ -46,11 +46,11 @@ SELECT *
 
 FROM people_document;
 
---Delete data from the table to where "Kelly Kapoor" is no longer in the data.
+--Delete data from the table to where "Kelly was so annoying. However, " is no longer in the data.
 
 DELETE FROM people_document
 
-WHERE full_name = "Kelly Kapoor";
+WHERE popularity_comment = "Kelly was so annoying. However, ";
 
 SELECT * FROM people_document;
 
