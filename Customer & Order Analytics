@@ -1,1 +1,91 @@
+#In this SQL, I'm querying a database named DB with multiple tables in it to quantify statistics about customer and order data. 
+
+/*QUESTION 1: How many orders were placed in January? Answer: 9,681 orders were placed in January.*/
+
+SELECT COUNT(orderID)
+
+FROM DB.JanSales
+
+WHERE length(orderID) = 6
+
+AND orderID <> 'Order ID' ;
+
+/* QUESTION 2: How many of those orders were for an iPhone? Answer: 379 of the orders placed in January were for an iPhone*/
+
+SELECT COUNT(Product)
+
+FROM DB.JanSales
+
+WHERE Product = 'iPhone'
+
+AND orderID <> 'Order ID';
+
+/* QUESTION 3: Select the customer account numbers for all the orders that were placed in February.
+ Answer: 11,986*/
+
+SELECT DISTINCT acctnum
+
+FROM DB.customers
+
+INNER JOIN DB.FebSales
+
+ON DB.customers.order_id = DB.FebSales.orderID
+
+WHERE length(orderID) <> 'Order ID'
+
+AND length(orderid) = 6; 
+
+
+/* Question 4: Which product was the cheapest one sold in January, and what was the price? Answer: AAA Batteries (4-Pack), price being 2.99 */
+
+SELECT DISTINCT Product,price
+FROM DB.JanSales
+WHERE price IN (SELECT MIN(price)
+FROM DB.JanSales);
+
+
+/* QUESTION 5: What is the total revenue for each product sold in January? 
+(Revenue can be calculated using the number of products sold and the price of the products). 
+Answer: The total revenue for each product sold in January is 7,607,600 for the total of 34,612 products.*/
+
+SELECT SUM(Quantity)*Price AS Revenue,SUM(Product) AS total_products
+
+FROM DB.JanSales
+
+WHERE orderID <> 'Order ID';
+
+/*QUESTION 6: Which products were sold in February at 548 Lincoln St, Seattle, WA 98101, 
+how many of each were sold, and what was the total revenue? Answer: 2, AA Batteries (4-Pack) with a total revenue of 7.68*/
+
+SELECT Product,SUM(Quantity) 
+
+AS number_of_products, SUM(Quantity)*Price 
+
+AS total_revenue
+
+FROM DB.FebSales
+
+WHERE location = '548 Lincoln St, Seattle, WA 98101'
+
+AND orderID <> 'Order ID'
+
+GROUP BY Product;
+
+/* Question 7: How many customers ordered more than 2 products at a time in February, 
+and what was the average amount spent for those customers? Answer: customers: 278 , average revenue: 12.40054838709674 */
+
+SELECT COUNT( DISTINCT acctnum), AVG(Quantity*price) 
+
+AS Average_revenue 
+
+FROM DB.FebSales
+
+LEFT JOIN DB.customers
+
+ON DB.FebSales.orderID = DB.customers.order_id
+
+WHERE Quantity > 2 
+
+AND orderid <> 'Order ID';
+
 
