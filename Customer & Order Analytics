@@ -88,4 +88,13 @@ WHERE Quantity > 2
 
 AND orderid <> 'Order ID';
 
+/* QUESTION 8: List all the products sold in Los Angeles in February, and include how many of each were sold. */
+
+SELECT Product,SUM(Quantity)
+
+FROM DB.FebSales
+
+WHERE location LIKE '%Los Angeles%'
+
+GROUP BY Product;
 
