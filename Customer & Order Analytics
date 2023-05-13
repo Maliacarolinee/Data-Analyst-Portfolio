@@ -98,3 +98,125 @@ WHERE location LIKE '%Los Angeles%'
 
 GROUP BY Product;
 
+/* QUESTION 9: Which locations in New York received at least 3 orders in January, 
+and how many orders did they each receive? Answer: 4 locations all receiving 3 except one receiveing 4 orders.*/
+
+SELECT DISTINCT location, COUNT(orderID)
+
+FROM DB.JanSales
+
+WHERE location LIKE '%New York%'
+
+AND orderID <> 'Order ID' 
+
+AND length(orderID) = 6
+
+GROUP BY location
+
+HAVING COUNT(orderID) >2;
+
+/* QUESTION 10: How many of each type of headphone were sold in February? 
+Answer: 3 types 
+(Apple Airpods Headphones: Quantity = 1,013, Bose SoundSport Headphones: 
+Quantity = 844, and Wired Headphones: Quantity = 1,282*/
+
+
+SELECT Product, SUM(Quantity) 
+
+AS Quantity
+
+FROM DB.FebSales
+
+WHERE product LIKE '%headphone%'
+
+GROUP BY Product;
+
+/* QUESTION 11: What was the average amount spent per account in February? 
+(Hints: For this question, we want the average amount spent / number of accounts, 
+not the amount spent by each account. 
+To multiply, you can use the * symbol, and to divide, you can use the / symbol.)
+*Answer: 190.00034676304287/
+
+SELECT sum(quantity*price)/count(DB.customers.acctnum)
+FROM DB.FebSales
+
+LEFT JOIN DB.customers
+ON DB.FebSales.orderID=DB.customers.order_id
+
+WHERE length(orderid) = 6 
+AND orderid <> 'Order ID';
+
+/*QUESTION 12: Which product brought in the most revenue in January
+ and how much revenue did it bring in total?
+ Answer: Product = Macbook Pro Laptop, Revenue = 399,500*/
+
+SELECT Product, SUM(Quantity*Price) 
+
+As Revenue
+
+FROM DB.JanSales
+
+GROUP BY Product
+
+ORDER BY SUM(Quantity*Price) DESC
+
+LIMIT 1;
+
+/* QUESTION 13: What was the average quantity of products purchased per account in February? 
+Just like the question above,
+ we want the overall average, not the average for each account individually).Answer: 190.00034676304287*/
+
+SELECT avg(quantity*price)
+
+FROM DB.FebSales
+
+LEFT JOIN DB.customers
+
+ON DB.FebSales.orderID = DB.customers.order_id
+
+WHERE length(orderid) = 6 
+
+AND orderid <> 'Order ID';
+
+/*QUESTION 14: What products are batteries?* Answer: 2= AA Batteries (4- Pack) and AAA Batteries (4- Pack)/
+
+SELECT distinct Product
+
+FROM DB.FebSales
+
+WHERE Product like '%Batteries%';
+
+/* QUESTION 15: How many products have a price ending in .99? Answer:8*/
+
+SELECT COUNT(distinct Product), Price
+
+FROM DB.FebSales 
+
+WHERE Price like '%.99';
+
+/* QUESTION 16: What location has an order date of 02/18/19? Answer: 866 Spruce St, Portland,ME 04101*/
+
+SELECT location
+
+FROM DB.FebSales 
+
+WHERE orderdate = '02/18/19 01:35';
+
+/*QUESTION 17: What is the total amount of products with an order date that starts with 02/18/19? Answer: 508*/
+
+SELECT sum(quantity)
+
+FROM DB.FebSales 
+
+WHERE orderdate like '02/18/19%';
+
+/* QUESTION 18: How many orders in February have an orderdate between 02/13/19 00:00 
+
+and 02/18/19 00:00? Answer: 2,185 orders.*/
+
+SELECT COUNT(orderID)
+
+FROM DB.FebSales
+
+WHERE orderdate BETWEEN '02/13/19 00:00' AND '02/18/19 00:00';
+
