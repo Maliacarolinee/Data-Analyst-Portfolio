@@ -1,5 +1,6 @@
-/* Put your data in here and query it! */
-/* TOP 50 restaurants in the US */
+#In this SQL, I'm creating a table with data in it and querying it to properly aggregate data using multiple joins to select relevant users from a database and group them by activity.
+
+/* TOP 50 restaurants in the US */   to aggregate data using multiple joins to select relevant users from a database and group them by activity.
 
 CREATE TABLE Top_50restaurants_in_USA (id INTEGER PRIMARY KEY, restaurant_name TEXT, TYPE text, Place TEXT,Rank INTEGER);
 INSERT INTO Top_50restaurants_in_USA VALUES(1,"Broken Mouth","Korean-Hawaiian food","Los Angeles, California",5);
