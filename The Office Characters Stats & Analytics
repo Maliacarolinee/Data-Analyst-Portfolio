@@ -1,3 +1,5 @@
+#In this SQL, I'm creating a table to store information about the characters of a favorite TV show and querying it to insert 15 rows of data into the table, alter the table, aggregate data, and delete data from the table.
+
 --CREATE a table to store the data for characters of your favorite tv show.
 
 CREATE TABLE people_document (id INTEGER PRIMARY KEY, full_name TEXT,job TEXT, salary INTEGER,popularity_comment TEXT);
