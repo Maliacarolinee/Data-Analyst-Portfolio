@@ -1,6 +1,6 @@
 #In this SQL, I'm querying a database named DB with multiple tables in it to quantify statistics insights about customer and order data. 
 
-/*QUESTION 1: How many orders were placed in January? Answer: 9,681 orders were placed in January.*/
+/*QUESTION 1: How many orders were placed in January? */
 
 SELECT COUNT(orderID)
 
@@ -10,7 +10,7 @@ WHERE length(orderID) = 6
 
 AND orderID <> 'Order ID' ;
 
-/* QUESTION 2: How many of those orders were for an iPhone? Answer: 379 of the orders placed in January were for an iPhone*/
+/* QUESTION 2: How many of those orders were for an iPhone? */
 
 SELECT COUNT(Product)
 
@@ -21,7 +21,7 @@ WHERE Product = 'iPhone'
 AND orderID <> 'Order ID';
 
 /* QUESTION 3: Select the customer account numbers for all the orders that were placed in February.
- Answer: 11,986*/
+ */
 
 SELECT DISTINCT acctnum
 
@@ -36,7 +36,7 @@ WHERE length(orderID) <> 'Order ID'
 AND length(orderid) = 6; 
 
 
-/* Question 4: Which product was the cheapest one sold in January, and what was the price? Answer: AAA Batteries (4-Pack), price being 2.99 */
+/* Question 4: Which product was the cheapest one sold in January, and what was the price? */
 
 SELECT DISTINCT Product,price
 FROM DB.JanSales
@@ -46,7 +46,7 @@ FROM DB.JanSales);
 
 /* QUESTION 5: What is the total revenue for each product sold in January? 
 (Revenue can be calculated using the number of products sold and the price of the products). 
-Answer: The total revenue for each product sold in January is 7,607,600 for the total of 34,612 products.*/
+*/
 
 SELECT SUM(Quantity)*Price AS Revenue,SUM(Product) AS total_products
 
@@ -55,7 +55,7 @@ FROM DB.JanSales
 WHERE orderID <> 'Order ID';
 
 /*QUESTION 6: Which products were sold in February at 548 Lincoln St, Seattle, WA 98101, 
-how many of each were sold, and what was the total revenue? Answer: 2, AA Batteries (4-Pack) with a total revenue of 7.68*/
+how many of each were sold, and what was the total revenue? */
 
 SELECT Product,SUM(Quantity) 
 
@@ -72,7 +72,7 @@ AND orderID <> 'Order ID'
 GROUP BY Product;
 
 /* Question 7: How many customers ordered more than 2 products at a time in February, 
-and what was the average amount spent for those customers? Answer: customers: 278 , average revenue: 12.40054838709674 */
+and what was the average amount spent for those customers? */
 
 SELECT COUNT( DISTINCT acctnum), AVG(Quantity*price) 
 
@@ -99,7 +99,7 @@ WHERE location LIKE '%Los Angeles%'
 GROUP BY Product;
 
 /* QUESTION 9: Which locations in New York received at least 3 orders in January, 
-and how many orders did they each receive? Answer: 4 locations all receiving 3 except one receiveing 4 orders.*/
+and how many orders did they each receive? */
 
 SELECT DISTINCT location, COUNT(orderID)
 
@@ -116,10 +116,7 @@ GROUP BY location
 HAVING COUNT(orderID) >2;
 
 /* QUESTION 10: How many of each type of headphone were sold in February? 
-Answer: 3 types 
-(Apple Airpods Headphones: Quantity = 1,013, Bose SoundSport Headphones: 
-Quantity = 844, and Wired Headphones: Quantity = 1,282*/
-
+*/
 
 SELECT Product, SUM(Quantity) 
 
@@ -135,7 +132,7 @@ GROUP BY Product;
 (Hints: For this question, we want the average amount spent / number of accounts, 
 not the amount spent by each account. 
 To multiply, you can use the * symbol, and to divide, you can use the / symbol.)
-*Answer: 190.00034676304287/
+*/
 
 SELECT sum(quantity*price)/count(DB.customers.acctnum)
 FROM DB.FebSales
@@ -147,8 +144,7 @@ WHERE length(orderid) = 6
 AND orderid <> 'Order ID';
 
 /*QUESTION 12: Which product brought in the most revenue in January
- and how much revenue did it bring in total?
- Answer: Product = Macbook Pro Laptop, Revenue = 399,500*/
+ and how much revenue did it bring in total?*/
 
 SELECT Product, SUM(Quantity*Price) 
 
@@ -164,7 +160,7 @@ LIMIT 1;
 
 /* QUESTION 13: What was the average quantity of products purchased per account in February? 
 Just like the question above,
- we want the overall average, not the average for each account individually).Answer: 190.00034676304287*/
+ we want the overall average, not the average for each account individually).*/
 
 SELECT avg(quantity*price)
 
@@ -178,7 +174,7 @@ WHERE length(orderid) = 6
 
 AND orderid <> 'Order ID';
 
-/*QUESTION 14: What products are batteries?* Answer: 2= AA Batteries (4- Pack) and AAA Batteries (4- Pack)/
+/*QUESTION 14: What products are batteries?* /
 
 SELECT distinct Product
 
@@ -194,7 +190,7 @@ FROM DB.FebSales
 
 WHERE Price like '%.99';
 
-/* QUESTION 16: What location has an order date of 02/18/19? Answer: 866 Spruce St, Portland,ME 04101*/
+/* QUESTION 16: What location has an order date of 02/18/19? */
 
 SELECT location
 
@@ -202,7 +198,7 @@ FROM DB.FebSales
 
 WHERE orderdate = '02/18/19 01:35';
 
-/*QUESTION 17: What is the total amount of products with an order date that starts with 02/18/19? Answer: 508*/
+/*QUESTION 17: What is the total amount of products with an order date that starts with 02/18/19? */
 
 SELECT sum(quantity)
 
@@ -212,7 +208,7 @@ WHERE orderdate like '02/18/19%';
 
 /* QUESTION 18: How many orders in February have an orderdate between 02/13/19 00:00 
 
-and 02/18/19 00:00? Answer: 2,185 orders.*/
+and 02/18/19 00:00? */
 
 SELECT COUNT(orderID)
 
