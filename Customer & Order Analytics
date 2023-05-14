@@ -1,4 +1,4 @@
-#In this SQL, I'm querying a database named DB with multiple tables in it to quantify statistics about customer and order data. 
+#In this SQL, I'm querying a database named DB with multiple tables in it to quantify statistics insights about customer and order data. 
 
 /*QUESTION 1: How many orders were placed in January? Answer: 9,681 orders were placed in January.*/
 
