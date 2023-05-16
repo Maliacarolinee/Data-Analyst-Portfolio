@@ -1,4 +1,4 @@
-#For this SQL project I'm querying multiple CTE(Common Table Expressions) with a dataset I extracted from Kaggle.
+#For this SQL I'm querying multiple CTE(Common Table Expressions) with a dataset I extracted from Kaggle.
 
 /*Calculate the average popularity for the artists in the Spotify data table. 
 Then, for every artist with an average popularity of 90 or above, show their name, their average popularity, 
