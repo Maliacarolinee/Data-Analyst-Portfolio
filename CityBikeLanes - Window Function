@@ -1,3 +1,9 @@
+#For this SQL I'm querying multiple window functions.
+
+#First, I create a table.
+
+#Creating table:
+
 CREATE TABLE DB.CityBikeLanes (
 id integer primary key,
 year_installed year not null,
@@ -6,6 +12,8 @@ street varchar not null,
 width_feet integer not null,
 safetyrating integer not null,
 protected varchar not null);
+
+#Now I insert data into said table called "CityBikeLanes"
 
 INSERT INTO DB.CityBikeLanes values(1,2012, 2020, "Chestnut",4,4,"yes");
 
@@ -127,7 +135,7 @@ INSERT INTO DB.CityBikeLanes values(59,2008, 2021,"Kensington",4,4.9,"yes");
 
 INSERT INTO DB.CityBikeLanes values(60,2002, 2021,"Mouse",4.5,4.3,"no");
 
-/* take the average of safetyrating over the entire result set, partitioned by street(Window Function)*/
+/* take the average of safetyrating over the entire result set, partitioned by street*/
 
 SELECT street 
 
@@ -141,7 +149,7 @@ FROM CityBikeLanes;
 make improvements on the bike lanes that are already somewhat safe,
 and leave the most safe bike lanes as-is. You need to give your boss the list of all the bike lanes, 
 both safety ratings for each lane given by the two technicians, the average safety rating for each lane, 
-and a label with the recommendation as "Remove", "Leave As-Is", or "Improvements Needed". (Window Function)*/
+and a label with the recommendation as "Remove", "Leave As-Is", or "Improvements Needed". */
 
 SELECT street, safetyrating,
 
