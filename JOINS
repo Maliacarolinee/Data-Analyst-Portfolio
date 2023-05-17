@@ -1,0 +1,12 @@
+/*Write a SQL query to report the customer ids and product names.
+Return the result order by the product name alphabetically.*/
+
+SELECT customer_id,product_name
+
+FROM customers
+
+JOIN products
+
+ON customers.product_key = products.product_key
+
+ORDER BY product_name ASC;
