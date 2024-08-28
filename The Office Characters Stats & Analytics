@@ -1,4 +1,4 @@
-#In this SQL, I'm creating a table to store information about the characters of a favorite TV show and querying it to insert 15 rows of data into the table, alter the table, aggregate data, and delete data from the table.
+#In this SQL script, I’m creating a table to store details about characters from my favorite TV show. The process includes creating 15 rows of data, altering the table structure, aggregating data, and deleting specific entries.
 
 --CREATE a table to store the data for characters of your favorite tv show.
 
