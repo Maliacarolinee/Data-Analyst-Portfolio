@@ -1,6 +1,4 @@
-# For this project, I downloaded Spotify data from Kaggle.
-# Then, I created a table to insert Spotify data into.
-# Finally, I utilized SQL to conduct data analysis on the acquired information.
+# For this project, I downloaded Spotify data from Kaggle, created a table to store the data, and then used SQL to analyze the information.
 
 # Creating the table: 
 
