@@ -24,6 +24,8 @@ SQL
 
 [Tableau](https://public.tableau.com/app/profile/malia.latimer)
 
+Presentations
+
 # Portfolio Projects
 
 # Contact Information
