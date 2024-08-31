@@ -22,7 +22,7 @@ Feel free to explore, and don’t hesitate to reach out if you have any question
 
 SQL
 
-Tableau: [Tableau](https://public.tableau.com/app/profile/malia.latimer)
+[Tableau](https://public.tableau.com/app/profile/malia.latimer)
 
 # Portfolio Projects
 
