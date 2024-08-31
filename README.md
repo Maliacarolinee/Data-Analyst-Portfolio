@@ -14,4 +14,4 @@ In my free time, I enjoy exploring new data analysis tools and techniques, alway
 Feel free to explore, and don’t hesitate to reach out if you have any questions: latimem@stthom.edu
 
 
-My CV in [ Resume ]
+My CV in [Resume.pdf]
