@@ -19,5 +19,5 @@ Feel free to explore, and don’t hesitate to reach out if you have any question
 
 email: latimem@stthom.edu
 
-LinkedIn: (www.linkedin.com/in/malia-c-latimer)
+LinkedIn: www.linkedin.com/in/malia-c-latimer
 
