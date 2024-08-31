@@ -16,7 +16,7 @@ Feel free to explore, and don’t hesitate to reach out if you have any question
 
 # Table of Contents
 
-Profile Summary
+#Profile-Summary
 
 # Contact Information
 
