@@ -30,6 +30,8 @@ Presentations
 
 In this section, I’ve compiled a selection of my data analysis projects that reflect my skills and interests. I’ve used various tools and techniques to analyze complex data and present clear, actionable insights. Below, you can explore how I’ve applied my expertise to different topics and deliver meaningful results.
 
+** Employee Retention Analysis in Remote Work Environments **
+
 # Contact Information
 
 Email: latimem@stthom.edu
