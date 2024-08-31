@@ -32,6 +32,7 @@ In this section, I’ve compiled a selection of my data analysis projects that r
 
 **Employee Retention Analysis in Remote Work Environments**
 
+
 Description: I examined employee turnover rates before and after the shift to remote work, analyzing factors influencing retention and proposing strategies to improve employee satisfaction and reduce turnover.
 
 Tools: Excel, SQL
@@ -39,6 +40,36 @@ Tools: Excel, SQL
 Code:
 
 Key Insights: I uncovered key factors affecting employee retention and suggested improvements for remote work policies.
+
+**Forecasting Market Trends in the Tech Industry**
+
+Description: I conducted a predictive analysis of market trends in the technology sector, leveraging historical stock market data and industry reports to forecast future growth areas and emerging technologies.
+
+Tools: SQL, Tableau
+
+Code:
+
+Key Insights: I developed forecasts for tech industry trends, highlighting potential investment opportunities and growth areas.
+
+**Trends in Global Employment Rates Over the Last Decade**
+
+Description: I analyzed global employment rate trends over the past ten years, examining correlations with economic policies, education levels, and technological advancements.
+
+Tools: Tableau, SQL
+
+Code:
+
+Key Insights: I identified trends and patterns in employment rates and their relationship with various influencing factors.
+
+**Comparative Analysis of Global Cost of Living**
+
+Description: I created visualizations comparing the cost of living across different countries, focusing on housing, healthcare, education, and transportation. This analysis provided insights into how these costs impact quality of life.
+
+Tools: Tableau, SQL, Excel
+
+code:
+
+Key Insights: I highlighted disparities in living costs and their effects on residents' quality of life.
 
 # Contact Information
 
