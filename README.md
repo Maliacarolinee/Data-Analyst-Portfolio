@@ -10,7 +10,7 @@ My CV in [Resume](https://github.com/Maliacarolinee/SQL/blob/main/Resume.pdf)
 
 In this portfolio, I have included data projects that showcase my technical skills as well as analytical capability. You will find documents, workbooks, presentation slides, and dashboards created with SQL, Tableau, Excel, and PowerPoint. These projects demonstrate my ability to organize, analyze, and present data in a clear and visually appealing way, making it easy for anyone to understand and make informed decisions.
 
-This is a repository to showcase skills, share projects and track my progress in Data Analytics / Data Science related topics.
+This is a repository to showcase skills, share projects and track my progress in Data Analytics related topics.
 
 Feel free to explore, and don’t hesitate to reach out if you have any questions!
 
