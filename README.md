@@ -36,6 +36,8 @@ Description: I examined employee turnover rates before and after the shift to re
 
 Tools: Excel, SQL
 
+Code:
+
 Key Insights: I uncovered key factors affecting employee retention and suggested improvements for remote work policies.
 
 # Contact Information
