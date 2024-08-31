@@ -20,6 +20,10 @@ Feel free to explore, and don’t hesitate to reach out if you have any question
 
 [Portfolio Projects](https://github.com/Maliacarolinee/SQL/blob/main/README.md#Portfolio-projects)
 
+SQL
+
+Tableau: https://public.tableau.com/app/profile/malia.latimer
+
 # Portfolio Projects
 
 # Contact Information
