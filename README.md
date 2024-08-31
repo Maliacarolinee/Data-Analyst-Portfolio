@@ -1,4 +1,4 @@
-# Bio
+# Profile Summary
 
 Welcome to my portfolio!
 
