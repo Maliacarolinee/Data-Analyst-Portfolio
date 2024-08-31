@@ -14,9 +14,6 @@ This is a repository to showcase skills, share projects and track my progress in
 
 Feel free to explore, and don’t hesitate to reach out if you have any questions!
 
-# Table of Contents
-
-[Profile Summary]
 
 # Contact Information
 
