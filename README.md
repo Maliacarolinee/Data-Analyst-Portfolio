@@ -1,6 +1,6 @@
 # Profile Summary
 
-Welcome to my portfolio!
+Welcome to my SQL portfolio!
 
 My name is Malia, I have an analytical background in Business with strong proficiency in SQL, Excel, and Tableau. I’ve developed a solid foundation in the life sciences, coupled with a passion for leveraging data to uncover meaningful insights. I’m eager to apply my technical and analytical skills in the field of data science. 
 
