@@ -1,4 +1,4 @@
-# SQL
+# Bio
 
 Welcome to my portfolio!
 
