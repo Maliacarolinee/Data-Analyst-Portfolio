@@ -32,6 +32,12 @@ In this section, I’ve compiled a selection of my data analysis projects that r
 
 **Employee Retention Analysis in Remote Work Environments**
 
+Description: I examined employee turnover rates before and after the shift to remote work, analyzing factors influencing retention and proposing strategies to improve employee satisfaction and reduce turnover.
+
+Tools: Excel, SQL
+
+Key Insights: I uncovered key factors affecting employee retention and suggested improvements for remote work policies.
+
 # Contact Information
 
 Email: latimem@stthom.edu
