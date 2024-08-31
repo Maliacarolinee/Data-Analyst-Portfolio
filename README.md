@@ -12,4 +12,9 @@ In this portfolio, I have included data projects that showcase my technical skil
 
 This is a repository to showcase skills, share projects and track my progress in Data Analytics / Data Science related topics.
 
-Feel free to explore, and don’t hesitate to reach out if you have any questions: latimem@stthom.edu
+Feel free to explore, and don’t hesitate to reach out if you have any questions! latimem@stthom.edu
+
+
+# Contact Information
+
+email: latimem@stthom.edu
