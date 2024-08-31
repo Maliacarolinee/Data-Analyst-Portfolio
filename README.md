@@ -18,6 +18,10 @@ Feel free to explore, and don’t hesitate to reach out if you have any question
 
 [Profile Summary](https://github.com/Maliacarolinee/SQL/blob/main/README.md#profile-summary)
 
+[Portfolio Projects](https://github.com/Maliacarolinee/SQL/blob/main/README.md#profile-summary)
+
+# Portfolio Projects
+
 # Contact Information
 
 Email: latimem@stthom.edu
