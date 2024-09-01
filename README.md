@@ -6,7 +6,7 @@ My name is Malia, I have an analytical background in Business with strong profic
 
 In my free time, I enjoy exploring new data analysis tools and techniques, always seeking to expand my knowledge and skills. Whether collaborating on a team or working independently, I’m driven by the excitement of discovering new insights and the fulfillment of solving complex problems through data.
 
-My CV in [Resume](https://github.com/Maliacarolinee/SQL/blob/main/Resume.pdf)
+My Resume in [Resume](https://github.com/Maliacarolinee/SQL/blob/main/Resume.pdf)
 
 In this portfolio, I have included data projects that showcase my technical skills as well as analytical capability. You will find documents, workbooks, presentation slides, and dashboards created with SQL, Tableau, Excel, and PowerPoint. These projects demonstrate my ability to organize, analyze, and present data in a clear and visually appealing way, making it easy for anyone to understand and make informed decisions.
 
@@ -73,9 +73,9 @@ Key Insights: I highlighted disparities in living costs and their effects on res
 
 # Contact Information
 
-Email: latimem@stthom.edu
+[Email](latimem@stthom.edu)
 
-LinkedIn: www.linkedin.com/in/malia-c-latimer
+[LinkedIn](www.linkedin.com/in/malia-c-latimer)
 
-Website: https://linktr.ee/maliacarolinee
+[Website](https://linktr.ee/maliacarolinee)
 
