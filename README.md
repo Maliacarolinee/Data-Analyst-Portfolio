@@ -75,7 +75,7 @@ Key Insights: I highlighted disparities in living costs and their effects on res
 
 [Email](latimem@stthom.edu)
 
-[LinkedIn](www.linkedin.com/in/malia-c-latimer)
+[LinkedIn](https://www.linkedin.com/in/malia-c-latimer/)
 
 [Website](https://linktr.ee/maliacarolinee)
 
