@@ -38,7 +38,7 @@ Description: I examined the historical trends in productivity and compensation f
 
 Tools: Excel, SQL
 
-Code: [Productivity and Compensation Trends (1948-2021)](https://github.com/Maliacarolinee/SQL/blob/main/Productivity%20and%20Compensation%20Trends%20(1948-2021).sql)
+Code: [Productivity and Compensation Trends](https://github.com/Maliacarolinee/SQL/blob/main/Productivity%20and%20Compensation%20Trends%20(1948-2021).sql)
 
 
 Key Insights: I identified significant trends in productivity and compensation over the decades and proposed strategies to better align wage growth with productivity increases.
