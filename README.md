@@ -27,6 +27,8 @@ SQL
 
 Data Analysis Presentations
 
+Data Sources
+
 # Portfolio Projects
 
 In this section, I’ve compiled a selection of my data analysis projects that reflect my skills and interests. I’ve used various tools and techniques to analyze complex data and present clear, actionable insights. Below, you can explore how I’ve applied my expertise to different topics and deliver meaningful results.
@@ -84,6 +86,11 @@ Tools: Tableau, SQL, Excel
 code:
 
 Key Insights: I highlighted disparities in living costs and their effects on residents' quality of life.
+
+# Data Sources
+
+The data for Productivity and Compensation [Trends is sourced from the Economic Policy Institute's State of Working America Data Library.](https://www.epi.org/data/) 
+
 
 # Contact Information
 
