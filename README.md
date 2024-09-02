@@ -33,7 +33,7 @@ Data Analysis Presentations
 
 In this section, I’ve compiled a selection of my data analysis projects that reflect my skills and interests. I’ve used various tools and techniques to analyze complex data and present clear, actionable insights. Below, you can explore how I’ve applied my expertise to different topics and deliver meaningful results.
 
-**Productivity and Compensation Trends (1948-2021)**
+**1. Productivity and Compensation Trends (1948-2021)**
 
 
 Description: I examined the historical trends in productivity and compensation for the period from 1948 to 2021. By using SQL queries to explore and manipulate data, thus uncovering insights about changes in productivity and compensation over time, identify patterns, and compare different economic periods.
