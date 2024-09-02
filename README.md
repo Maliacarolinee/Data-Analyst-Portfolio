@@ -58,35 +58,6 @@ Key Insights: I identified significant trends in productivity and compensation o
 
 **Productivity Categories:** Years have been categorized into high, average, and low productivity based on their relative position to the overall average productivity. This categorization helps in understanding periods of exceptional performance versus those of lower productivity. 
 
-**Forecasting Market Trends in the Tech Industry**
-
-Description: I conducted a predictive analysis of market trends in the technology sector, leveraging historical stock market data and industry reports to forecast future growth areas and emerging technologies.
-
-Tools: SQL, Tableau
-
-Code:
-
-Key Insights: I developed forecasts for tech industry trends, highlighting potential investment opportunities and growth areas.
-
-**Trends in Global Employment Rates Over the Last Decade**
-
-Description: I analyzed global employment rate trends over the past ten years, examining correlations with economic policies, education levels, and technological advancements.
-
-Tools: Tableau, SQL
-
-Code:
-
-Key Insights: I identified trends and patterns in employment rates and their relationship with various influencing factors.
-
-**Comparative Analysis of Global Cost of Living**
-
-Description: I created visualizations comparing the cost of living across different countries, focusing on housing, healthcare, education, and transportation. This analysis provided insights into how these costs impact quality of life.
-
-Tools: Tableau, SQL, Excel
-
-code:
-
-Key Insights: I highlighted disparities in living costs and their effects on residents' quality of life.
 
 # Data Sources
 
