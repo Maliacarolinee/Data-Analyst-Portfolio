@@ -57,3 +57,5 @@ WHERE
     );
 
 --This query Retrieves records where the average compensation is greater than the average compensation from 2012 to 2021.
+
+--End of note.
