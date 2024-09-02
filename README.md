@@ -38,7 +38,7 @@ Description: I examined the historical trends in productivity and compensation f
 
 Tools: Excel, SQL
 
-Code: [Productivity and Compensation Trends (1948-2021)](Productivity and Compensation Trends (1948-2021).sql)
+Code: Productivity and Compensation Trends (1948-2021).sql
 
 Data Description:
 
