@@ -89,7 +89,7 @@ Key Insights: I highlighted disparities in living costs and their effects on res
 
 # Data Sources
 
-The data for Productivity and Compensation [Trends is sourced from the Economic Policy Institute's State of Working America Data Library.](https://www.epi.org/data/) 
+The data for Productivity and Compensation Trends is sourced from the [Economic Policy Institute's State of Working America Data Library.](https://www.epi.org/data/) 
 
 
 # Contact Information
