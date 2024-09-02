@@ -40,24 +40,6 @@ Tools: Excel, SQL
 
 Code: [Productivity and Compensation Trends (1948-2021)](https://github.com/Maliacarolinee/SQL/blob/main/Productivity%20and%20Compensation%20Trends%20(1948-2021).sql)
 
-Data Description:
-
-The dataset includes the following columns:
-
-year: The year of the recorded data.
-
-net_productivity_per_hour_worked: The net productivity measured per hour worked.
-
-average_compensation_of_production_and_nonsupervisory_workers: Average compensation for production and nonsupervisory workers.
-
-average_compensation: Average compensation across all workers.
-
-median_compensation: Median compensation across all workers.
-
-men_median_compensation: Median compensation for men.
-
-women_median_compensation: Median compensation for women.
-
 
 Key Insights: I identified significant trends in productivity and compensation over the decades and proposed strategies to better align wage growth with productivity increases.
 
