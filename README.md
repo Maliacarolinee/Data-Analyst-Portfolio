@@ -30,16 +30,47 @@ Data Analysis Presentations
 
 In this section, I’ve compiled a selection of my data analysis projects that reflect my skills and interests. I’ve used various tools and techniques to analyze complex data and present clear, actionable insights. Below, you can explore how I’ve applied my expertise to different topics and deliver meaningful results.
 
-**Employee Retention Analysis in Remote Work Environments**
+**Productivity and Compensation Trends (1948-2021)**
 
 
-Description: I examined employee turnover rates before and after the shift to remote work, analyzing factors influencing retention and proposing strategies to improve employee satisfaction and reduce turnover.
+Description: I examined the historical trends in productivity and compensation for the period from 1948 to 2021. By using SQL queries to explore and manipulate data, thus uncovering insights about changes in productivity and compensation over time, identify patterns, and compare different economic periods.
+
 
 Tools: Excel, SQL
 
 Code:
 
-Key Insights: I uncovered key factors affecting employee retention and suggested improvements for remote work policies.
+Data Description:
+
+The dataset includes the following columns:
+
+year: The year of the recorded data.
+
+net_productivity_per_hour_worked: The net productivity measured per hour worked.
+
+average_compensation_of_production_and_nonsupervisory_workers: Average compensation for production and nonsupervisory workers.
+
+average_compensation: Average compensation across all workers.
+
+median_compensation: Median compensation across all workers.
+
+men_median_compensation: Median compensation for men.
+
+women_median_compensation: Median compensation for women.
+
+
+Key Insights: I identified significant trends in productivity and compensation over the decades and proposed strategies to better align wage growth with productivity increases.
+
+**Productivity Trends:** Over the years, net productivity per hour worked has shown a general upward trend, with noticeable peaks and troughs. 
+
+**Compensation Trends:** Average compensation has also increased over time, but not uniformly. 
+
+
+**Disparities Between Productivity and Compensation:** 
+
+**High Productivity, Low Compensation:** Several years have been identified where productivity was notably high while compensation remained relatively low. 
+
+**Productivity Categories:** Years have been categorized into high, average, and low productivity based on their relative position to the overall average productivity. This categorization helps in understanding periods of exceptional performance versus those of lower productivity. 
 
 **Forecasting Market Trends in the Tech Industry**
 
