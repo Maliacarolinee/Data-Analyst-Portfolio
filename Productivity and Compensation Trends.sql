@@ -1,3 +1,11 @@
+/*
+Productivity and Compensation Trends
+
+Skills used: Aggregate Functions: Used to compute overall statistics, Filtering: Applied conditions to narrow down the data, 
+Logical Operators, CASE Statement, Subqueries, CTEs 
+
+*/
+
 SELECT 
     MAX(net_productivity_per_hour_worked) AS max_productivity,
     MIN(net_productivity_per_hour_worked) AS min_productivity,
@@ -8,6 +16,8 @@ SELECT
 FROM 
     productivity_n_hourly_compensation;
 
+--This query calculates the maximum, minimum, and average values for net productivity per hour worked and average compensation.
+
 SELECT 
     year,
     net_productivity_per_hour_worked,
@@ -17,6 +27,8 @@ FROM
 WHERE 
     net_productivity_per_hour_worked > 80
     AND average_compensation < 45;
+
+--This query retrieves records where net productivity per hour worked is greater than 80 and average compensation is less than 45.
 
 SELECT 
     year,
@@ -30,6 +42,8 @@ FROM
     productivity_n_hourly_compensation,
     (SELECT AVG(net_productivity_per_hour_worked) AS avg_productivity FROM productivity_n_hourly_compensation) AS subquery;
 
+--This query categorizes each year’s productivity into 'High', 'Average', or 'Low' based on the overall average productivity.
+
 SELECT 
     year,
     average_compensation
@@ -41,3 +55,5 @@ WHERE
         FROM productivity_n_hourly_compensation
         WHERE year BETWEEN 2012 AND 2021
     );
+
+--This query Retrieves records where the average compensation is greater than the average compensation from 2012 to 2021.
