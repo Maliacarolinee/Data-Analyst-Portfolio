@@ -26,6 +26,7 @@ SQL
 [Tableau](https://public.tableau.com/app/profile/malia.latimer)
 
 Data Analysis Presentations
+- [Data Analytics project Productivity and Compensation Trends](idk.com)
 
 [Data Sources](https://github.com/Maliacarolinee/SQL/blob/main/README.md#Data-sources)
 
