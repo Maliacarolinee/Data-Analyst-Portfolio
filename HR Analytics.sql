@@ -1,4 +1,4 @@
--- I created two tables: employees and employee_details. The employees table captures basic information about employees, such as 
+-- I created two tables: employees and employee_details. The employees table captures information about employees, such as 
 -- job titles, departments, and years at the company. The employee_details table holds additional information, including hire status, 
 -- experience, age, and gender. The employee_id field is used to link the two tables.
 
