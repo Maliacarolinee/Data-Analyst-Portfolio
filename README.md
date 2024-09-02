@@ -21,6 +21,7 @@ Feel free to explore, and don’t hesitate to reach out if you have any question
 [Portfolio Projects](https://github.com/Maliacarolinee/SQL/blob/main/README.md#Portfolio-projects)
 
 SQL
+
 [Productivity and Compensation Trends](https://github.com/Maliacarolinee/SQL/blob/main/Productivity%20and%20Compensation%20Trends%20(1948-2021).sql)
 
 [Tableau](https://public.tableau.com/app/profile/malia.latimer)
