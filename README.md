@@ -96,6 +96,11 @@ The data for Women's Happiness Source is sourced from [CEO WORLD Magazine.](http
 
 # Education
 
+University of St. Thomas, Houston: Bachelor of Business Administration and Master of Business Administration
+
+
+University of Houston: Master of Science - MS, Business Analytics
+
 # Certificates
 
 The best way to showcase skills is by doing and sharing your job done but sometimes certificates appear to be as an indirect result. Here's a list of the ones I have:
