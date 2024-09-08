@@ -96,10 +96,10 @@ The data for Women's Happiness Source is sourced from [CEO WORLD Magazine.](http
 
 # Education
 
-University of St. Thomas, Houston: Bachelor of Business Administration and Master of Business Administration
-
-
 University of Houston: Master of Science - MS, Business Analytics
+
+
+University of St. Thomas, Houston: Bachelor of Business Administration and Master of Business Administration
 
 # Certificates
 
