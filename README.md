@@ -82,5 +82,5 @@ Email: latimem@stthom.edu
 
 [LinkedIn](https://www.linkedin.com/in/malia-c-latimer/)
 
-[Website](https://linktr.ee/maliacarolinee)
+[My Website](https://linktr.ee/maliacarolinee)
 
