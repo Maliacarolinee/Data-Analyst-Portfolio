@@ -68,6 +68,21 @@ Key Insights: I identified significant trends in productivity and compensation o
 
 **Women's Happiness Score**
 
+Description: I analyzed the 2021 rankings of women's happiness across various countries, focusing on regional differences. By leveraging Excel for data organization and analysis, I was able to identify patterns in happiness scores, and compare happiness levels across regions.
+
+
+Tools: Excel
+
+
+Key Insights: Through this analysis, I uncovered significant variations in women's happiness across different countries and regions, and highlighted areas where policy improvements could enhance well-being.
+
+**Happiness Rankings:** Countries were ranked based on the happiness scores of women, with regions like Scandinavia showing consistently high levels of happiness. 
+
+**Regional Disparities:** Certain regions displayed wide disparities in happiness levels, suggesting that cultural, economic, and social factors play a crucial role in determining well-being.
+
+
+**Policy Recommendations:** Based on the findings, I proposed strategies for governments to improve women's happiness by addressing specific areas like income inequality, healthcare access, and social support.
+
 
 # Data Sources
 
