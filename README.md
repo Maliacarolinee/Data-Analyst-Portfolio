@@ -66,9 +66,14 @@ Key Insights: I identified significant trends in productivity and compensation o
 **Productivity Categories:** Years have been categorized into high, average, and low productivity based on their relative position to the overall average productivity. This categorization helps in understanding periods of exceptional performance versus those of lower productivity. 
 
 
+**Women's Happiness Score**
+
+
 # Data Sources
 
 The data for Productivity and Compensation Trends is sourced from the [Economic Policy Institute's State of Working America Data Library.](https://www.epi.org/data/) 
+
+The data for Women's Happiness Source is sourced from [CEO WORLD Magazine](https://ceoworld.biz/2021/06/11/the-worlds-best-countries-for-women-2021/)
 
 
 # Contact Information
