@@ -35,7 +35,7 @@ Data Analysis Presentations
 
 [Data Sources](https://github.com/Maliacarolinee/SQL/blob/main/README.md#Data-sources)
 
-[Certificates](fakeurl.com)
+[Certificates](https://github.com/Maliacarolinee/SQL/blob/main/README.md#certificates)
 
 [Contact Information](https://github.com/Maliacarolinee/SQL/blob/main/README.md#Contact-information)
 
