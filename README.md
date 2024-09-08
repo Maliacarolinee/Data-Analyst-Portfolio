@@ -100,11 +100,9 @@ Google Data Analytics Professional Certificate (Coursera)
 
 Data Analytics for Business Professionals (LinkedIn Learning)
 
+Data Analytics Certificate Course (Break Into Tech Course)
+
 Excel Fundamentals for Data Analysis (Coursera)
-
-Tableau (Coursera)
-
-Python for Data Science (Coursera)
 
 
 # Contact Information
