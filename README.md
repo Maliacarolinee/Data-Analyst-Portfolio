@@ -26,6 +26,8 @@ SQL
 
 [Tableau](https://public.tableau.com/app/profile/malia.latimer)
 
+Excel
+
 Data Analysis Presentations
 - [Data Analytics project Productivity and Compensation Trends](https://github.com/Maliacarolinee/SQL/blob/main/Data%20Analytics%20project%20Productivity%20and%20Compensation%20Trends.pdf)
 
