@@ -97,7 +97,11 @@ The data for Women's Happiness Source is sourced from [CEO WORLD Magazine.](http
 The best way to showcase skills is by doing and sharing your job done but sometimes certificates appear to be as an indirect result. Here's a list of the ones I have:
 
 Google Data Analytics Professional Certificate (Coursera - Google)
+
+
 Tableau (Coursera - University of California, Davis)
+
+
 Python for Data Science (Coursera - University of Colorado Boulder)
 
 
