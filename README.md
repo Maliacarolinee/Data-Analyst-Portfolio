@@ -35,6 +35,8 @@ Data Analysis Presentations
 
 [Data Sources](https://github.com/Maliacarolinee/SQL/blob/main/README.md#Data-sources)
 
+[Certificates](fakeurl.com)
+
 [Contact Information](https://github.com/Maliacarolinee/SQL/blob/main/README.md#Contact-information)
 
 # Portfolio Projects
@@ -89,6 +91,14 @@ Key Insights: Through this analysis, I uncovered significant variations in women
 The data for Productivity and Compensation Trends is sourced from the [Economic Policy Institute's State of Working America Data Library.](https://www.epi.org/data/) 
 
 The data for Women's Happiness Source is sourced from [CEO WORLD Magazine.](https://ceoworld.biz/2021/06/11/the-worlds-best-countries-for-women-2021/)
+
+# Certificates
+
+The best way to showcase skills is by doing and sharing your job done but sometimes certificates appear to be as an indirect result. Here's a list of the ones I have:
+
+Google Data Analytics Professional Certificate (Coursera - Google)
+Tableau (Coursera - University of California, Davis)
+Python for Data Science (Coursera - University of Colorado Boulder)
 
 
 # Contact Information
