@@ -88,6 +88,22 @@ Key Insights: Through this analysis, I uncovered significant variations in women
 **Policy Recommendations:** Based on the findings, I proposed strategies for governments to improve women's happiness by addressing specific areas like income inequality, healthcare access, and social support.
 
 
+# Excel
+
+Description: I analyzed a dataset containing various health and lifestyle factors, such as age, gender, sleep quality, daily steps, physical activity level, and dietary habits, to uncover relationships between sleep patterns and overall health as well as the correlation. Using Excel to clean and organize the data, I employed pivot tables and basic statistics to generate insights into how these variables affect sleep quality and physical well-being.
+
+Tools: Excel, Pivot Tables
+
+Code: Health Sleep Insights
+
+**Key Insights:** My analysis revealed notable trends in sleep quality and its correlation with physical activity, dietary habits, and demographic factors such as age and gender.
+
+Calories Burned & Physical Activity Level: A positive correlation was found between higher physical activity levels and the number of calories burned, significantly impacting sleep quality and overall health.
+
+**Sleep Disorders & Medication Usage:** Individuals reporting sleep disorders or using medications showed poorer sleep quality despite similar physical activity levels compared to those without such conditions.
+
+Physical Activity Categories: Participants were categorized based on their physical activity levels, helping to better understand how varying levels of activity influence sleep quality and overall health outcomes.
+
 # Data Sources
 
 The data for Productivity and Compensation Trends is sourced from the [Economic Policy Institute's State of Working America Data Library.](https://www.epi.org/data/) 
