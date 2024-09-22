@@ -72,7 +72,7 @@ Key Insights: I identified significant trends in productivity and compensation o
 
 **Women's Happiness Score**
 
-Description: I analyzed the 2021 rankings of women's happiness across various countries, focusing on regional differences. By leveraging Excel for data organization and analysis, I was able to identify patterns in happiness scores, and compare happiness levels across regions.
+Description: I analyzed the 2021 rankings of women's happiness across various countries, focusing on regional differences. By leveraging Excel for data organization and analysis, I was able to identify patterns in happiness scores and compare happiness levels across regions.
 
 
 Tools: Excel
@@ -90,19 +90,17 @@ Key Insights: Through this analysis, I uncovered significant variations in women
 
 # Excel
 
+**2. Health Sleep Insights**
+
 Description: I analyzed a dataset containing various health and lifestyle factors, such as age, gender, sleep quality, daily steps, physical activity level, and dietary habits, to uncover relationships between sleep patterns and overall health as well as the correlation. Using Excel to clean and organize the data, I employed pivot tables and basic statistics to generate insights into how these variables affect sleep quality and physical well-being.
 
 Tools: Excel, Pivot Tables
 
-Code: Health Sleep Insights
+Code: [Health Sleep Insights](fakeurl.com)
 
-**Key Insights:** My analysis revealed notable trends in sleep quality and its correlation with physical activity, dietary habits, and demographic factors such as age and gender.
+**Key Insights:** My analysis revealed trends in sleep quality and its correlation with physical activity, dietary habits, and demographic factors such as age and gender.
 
-Calories Burned & Physical Activity Level: A positive correlation was found between higher physical activity levels and the number of calories burned, significantly impacting sleep quality and overall health.
-
-**Sleep Disorders & Medication Usage:** Individuals reporting sleep disorders or using medications showed poorer sleep quality despite similar physical activity levels compared to those without such conditions.
-
-Physical Activity Categories: Participants were categorized based on their physical activity levels, helping to better understand how varying levels of activity influence sleep quality and overall health outcomes.
+**Physical Activity Categories:** Participants were categorized based on their physical activity levels, helping to better understand how varying levels of activity influence sleep quality and overall health outcomes.
 
 # Data Sources
 
