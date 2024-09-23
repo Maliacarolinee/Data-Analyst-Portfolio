@@ -28,9 +28,9 @@ SQL
 
 Excel
 
-[Women's Happiness Score](https://github.com/Maliacarolinee/Data-Analyst-Portfolio/blob/main/2021%20Womens%20Happiness%20Rankings%20by%20Country%20Dataset.xlsx)
+- [Women's Happiness Score](https://github.com/Maliacarolinee/Data-Analyst-Portfolio/blob/main/2021%20Womens%20Happiness%20Rankings%20by%20Country%20Dataset.xlsx)
 
-[Health Sleep Insights](fakeurl.com)
+- [Health Sleep Insights](https://github.com/Maliacarolinee/Data-Analyst-Portfolio/blob/main/Health%20Sleep%20Insights.xlsx)
 
 Data Analysis Presentations
 - [Data Analytics project Productivity and Compensation Trends](https://github.com/Maliacarolinee/SQL/blob/main/Data%20Analytics%20project%20Productivity%20and%20Compensation%20Trends.pdf)
@@ -72,12 +72,15 @@ Key Insights: I identified significant trends in productivity and compensation o
 **Productivity Categories:** Years have been categorized into high, average, and low productivity based on their relative position to the overall average productivity. This categorization helps in understanding periods of exceptional performance versus those of lower productivity. 
 
 
-**Women's Happiness Score**
+
+# Excel
+
+**1. Women's Happiness Score**
 
 Description: I analyzed the 2021 rankings of women's happiness across various countries, focusing on regional differences. By leveraging Excel for data organization and analysis, I was able to identify patterns in happiness scores and compare happiness levels across regions.
 
 
-Tools: Excel
+Tools: Excel, Pivot Tables
 
 
 Key Insights: Through this analysis, I uncovered significant variations in women's happiness across different countries and regions, and highlighted areas where policy improvements could enhance well-being.
@@ -89,16 +92,13 @@ Key Insights: Through this analysis, I uncovered significant variations in women
 
 **Policy Recommendations:** Based on the findings, I proposed strategies for governments to improve women's happiness by addressing specific areas like income inequality, healthcare access, and social support.
 
-
-# Excel
-
 **2. Health Sleep Insights**
 
 Description: I analyzed a dataset containing various health and lifestyle factors, such as age, gender, sleep quality, daily steps, physical activity level, and dietary habits, to uncover relationships between sleep patterns and overall health as well as the correlation. Using Excel to clean and organize the data, I employed pivot tables and basic statistics to generate insights into how these variables affect sleep quality and physical well-being.
 
 Tools: Excel, Pivot Tables
 
-Code: [Health Sleep Insights](fakeurl.com)
+Code: [Health Sleep Insights](https://github.com/Maliacarolinee/Data-Analyst-Portfolio/blob/main/Health%20Sleep%20Insights.xlsx)
 
 **Key Insights:** My analysis revealed trends in sleep quality and its correlation with physical activity, dietary habits, and demographic factors such as age and gender.
 
