@@ -110,6 +110,8 @@ The data for Productivity and Compensation Trends is sourced from the [Economic 
 
 The data for Women's Happiness Source is sourced from [CEO WORLD Magazine.](https://ceoworld.biz/2021/06/11/the-worlds-best-countries-for-women-2021/)
 
+The data for Health Sleep Insights is referenced from [Health and sleep statistics](https://www.kaggle.com/datasets/hanaksoy/health-and-sleep-statistics/data)
+
 # Education
 
 University of Houston: Master of Science - MS, Business Analytics
@@ -119,7 +121,7 @@ University of St. Thomas, Houston: Bachelor of Business Administration and Maste
 
 # Certificates
 
-The best way to showcase skills is by doing and sharing your job done but sometimes certificates appear to be as an indirect result. Here's a list of the ones I have:
+The best way to showcase skills is by doing and sharing your job done but sometimes certificates appear to be an indirect result. Here's a list of the ones I have:
 
 
 
