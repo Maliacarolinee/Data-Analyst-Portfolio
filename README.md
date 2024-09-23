@@ -133,6 +133,8 @@ Google Data Analytics Professional Certificate (Coursera)
 
 Excel Fundamentals for Data Analysis (Coursera)
 
+Salesforce Adminstrator (Salesforce)
+
 
 # Contact Information
 
