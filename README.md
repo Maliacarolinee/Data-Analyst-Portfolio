@@ -82,7 +82,7 @@ Description: I analyzed the 2021 rankings of women's happiness across various co
 
 Tools: Excel, Pivot Tables
 
-Code:[Women's Happiness Score](https://github.com/Maliacarolinee/Data-Analyst-Portfolio/blob/main/2021%20Womens%20Happiness%20Rankings%20by%20Country%20Dataset.xlsx)
+Code: [Women's Happiness Score](https://github.com/Maliacarolinee/Data-Analyst-Portfolio/blob/main/2021%20Womens%20Happiness%20Rankings%20by%20Country%20Dataset.xlsx)
 
 Key Insights: Through this analysis, I uncovered significant variations in women's happiness across different countries and regions, and highlighted areas where policy improvements could enhance well-being.
 
