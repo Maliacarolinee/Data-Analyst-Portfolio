@@ -20,19 +20,18 @@ Feel free to explore, and don’t hesitate to reach out if you have any question
 
 [Portfolio Projects](https://github.com/Maliacarolinee/SQL/blob/main/README.md#Portfolio-projects)
 
-SQL
-- [Productivity and Compensation Trends](https://github.com/Maliacarolinee/SQL/blob/main/Productivity%20and%20Compensation%20Trends%20(1948-2021).sql)
-- [HR Analytics](https://github.com/Maliacarolinee/SQL/blob/main/HR%20Analytics.sql)
-
-[Tableau](https://public.tableau.com/app/profile/malia.latimer)
-
 Excel
 
 - [Women's Happiness Score](https://github.com/Maliacarolinee/Data-Analyst-Portfolio/blob/main/2021%20Womens%20Happiness%20Rankings%20by%20Country%20Dataset.xlsx)
 
 - [Health Sleep Insights](https://github.com/Maliacarolinee/Data-Analyst-Portfolio/blob/main/Health%20Sleep%20Insights.xlsx)
 
-Python
+SQL
+- [Productivity and Compensation Trends](https://github.com/Maliacarolinee/SQL/blob/main/Productivity%20and%20Compensation%20Trends%20(1948-2021).sql)
+- [HR Analytics](https://github.com/Maliacarolinee/SQL/blob/main/HR%20Analytics.sql)
+
+[Tableau](https://public.tableau.com/app/profile/malia.latimer)
+
 
 Data Analysis Presentations
 - [Data Analytics project Productivity and Compensation Trends](https://github.com/Maliacarolinee/SQL/blob/main/Data%20Analytics%20project%20Productivity%20and%20Compensation%20Trends.pdf)
