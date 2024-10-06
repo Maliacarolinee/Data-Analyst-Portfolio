@@ -1,4 +1,4 @@
-# Profile Summary
+# About Me
 
 Welcome to my portfolio!
 
@@ -18,7 +18,7 @@ Feel free to explore, and don’t hesitate to reach out if you have any question
 
 # Table of Contents
 
-[Profile Summary](https://github.com/Maliacarolinee/SQL/blob/main/README.md#profile-summary)
+[About Me](https://github.com/Maliacarolinee/SQL/blob/main/README.md#about-me)
 
 [Portfolio Projects](https://github.com/Maliacarolinee/SQL/blob/main/README.md#Portfolio-projects)
 
