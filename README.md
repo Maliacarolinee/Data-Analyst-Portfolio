@@ -38,7 +38,7 @@ SQL
 Data Analysis Presentations
 - [Data Analytics project Productivity and Compensation Trends](https://github.com/Maliacarolinee/SQL/blob/main/Data%20Analytics%20project%20Productivity%20and%20Compensation%20Trends.pdf)
 - [Health Sleep Insights](https://github.com/Maliacarolinee/Data-Analyst-Portfolio/blob/main/Health%20Sleep%20Insights.pdf)
-- [Tesla Analysis](fakeurl.com)
+- [Tesla Analysis](https://github.com/Maliacarolinee/Data-Analyst-Portfolio/blob/main/Tesla%20Analysis.pdf)
 
 [Data Sources](https://github.com/Maliacarolinee/SQL/blob/main/README.md#Data-sources)
 
