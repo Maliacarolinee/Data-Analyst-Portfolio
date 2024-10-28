@@ -49,6 +49,8 @@ Data Analysis Presentations
 
 [Certificates](https://github.com/Maliacarolinee/SQL/blob/main/README.md#certificates)
 
+[Skills](fakeurl.com)
+
 [Contact Information](https://github.com/Maliacarolinee/SQL/blob/main/README.md#Contact-information)
 
 # Portfolio Projects
