@@ -1,8 +1,8 @@
 # About Me
 
-Welcome to my portfolio! This is my Portfolio to keep track of my projects, contributions & publications.
+Welcome to my portfolio of data analysis projects! This is my Portfolio to keep track of my projects, contributions & publications.
 
-My name is Malia, I have an analytical background in Business with strong proficiency in SQL, Excel, and Tableau. I’ve developed a solid foundation in the life sciences, coupled with a passion for leveraging data to uncover meaningful insights. I’m eager to apply my technical and analytical skills in the field of data science. 
+My name is Malia, I have an analytical background in Business with strong proficiency in SQL, Excel, and Tableau. I have a strong foundation in analyzing datasets to uncover actionable insights, with experience in a range of projects from exploratory data analysis to predictive modeling. I’m eager to apply my technical and analytical skills in the field of data science. 
 
 In my free time, I enjoy exploring new data analysis tools and techniques, always seeking to expand my knowledge and skills. Whether collaborating on a team or working independently, I’m driven by the excitement of discovering new insights and the fulfillment of solving complex problems through data.
 
@@ -49,7 +49,7 @@ Data Analysis Presentations
 
 [Certificates](https://github.com/Maliacarolinee/SQL/blob/main/README.md#certificates)
 
-[Skills](fakeurl.com)
+[Skills](https://github.com/Maliacarolinee/SQL/blob/main/README.md#Skills)
 
 [Contact Information](https://github.com/Maliacarolinee/SQL/blob/main/README.md#Contact-information)
 
