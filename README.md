@@ -154,7 +154,6 @@ Salesforce Adminstrator (Salesforce)
 |---------------------|-------------------------------------------------|
 | **Data Analysis**   | SQL, Advanced SQL Queries, Data Cleaning        |
 | **Data Visualization** | Tableau                                      |
-| **Predictive Modeling** | statsmodels                                 |
 | **Database Management** | MySQL, PostgreSQL                           |
 | **Reporting**       | Microsoft Excel, Power BI                       |
 
