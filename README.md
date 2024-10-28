@@ -145,6 +145,18 @@ Excel Fundamentals for Data Analysis (Coursera)
 Salesforce Adminstrator (Salesforce)
 
 
+# Skills
+
+
+| Skill               | Tools & Technologies                            |
+|---------------------|-------------------------------------------------|
+| **Data Analysis**   | Python, SQL                                     |
+| **Data Visualization** | Tableau                                      |
+| **Predictive Modeling** | statsmodels                                 |
+| **Database Management** | MySQL, PostgreSQL                           |
+| **Reporting**       | Microsoft Excel, Power BI                       |
+
+
 # Contact Information
 
 Email: latimem@stthom.edu
