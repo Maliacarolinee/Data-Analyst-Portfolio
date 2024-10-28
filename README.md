@@ -152,7 +152,7 @@ Salesforce Adminstrator (Salesforce)
 
 | Skill               | Tools & Technologies                            |
 |---------------------|-------------------------------------------------|
-| **Data Analysis**   | Python, SQL                                     |
+| **Data Analysis**   | SQL, Advanced SQL Queries, Data Cleaning        |
 | **Data Visualization** | Tableau                                      |
 | **Predictive Modeling** | statsmodels                                 |
 | **Database Management** | MySQL, PostgreSQL                           |
