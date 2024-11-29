@@ -125,10 +125,9 @@ The data for Health Sleep Insights is referenced from [Health and sleep statisti
 
 # Education
 
-University of Houston: Master of Science - MS, Business Analytics
-
-
 University of St. Thomas, Houston: Bachelor of Business Administration and Master of Business Administration
+
+Vanderbilt University, Bachelor of Science - BS, Computer Science
 
 # Certificates
 
